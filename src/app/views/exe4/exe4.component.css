@@ -1,13 +1,15 @@
 .image1{
-width: 200px;
-height: 200px;
-border: darkorchid;
+width: 70px;
+height: 70px;
+border:double darkorchid;
 }
 .image2{
-  width: 200px;
-  height: 200px;
+  width: 70px;
+  height: 70px;
+  border:double rgb(243, 199, 6);
 }
 .image3{
-  width: 200px;
-  height: 200px;
+  width: 70px;
+  height: 70px;
+  border:double rgb(248, 30, 1);
 }

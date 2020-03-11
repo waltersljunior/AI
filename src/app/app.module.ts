@@ -10,6 +10,7 @@ import { Exe3Component } from './views/exe3/exe3.component';
 import { Exe4Component } from './views/exe4/exe4.component';
 import { Exe5Component } from './views/exe5/exe5.component';
 import { Exe6Component } from './views/exe6/exe6.component';
+import { Exe7Component } from './views/exe7/exe7.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Exe6Component } from './views/exe6/exe6.component';
     Exe3Component,
     Exe4Component,
     Exe5Component,
-    Exe6Component
+    Exe6Component,
+    Exe7Component
   ],
   imports: [
     BrowserModule,

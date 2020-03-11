@@ -18,11 +18,13 @@ export class Exe5Component implements OnInit {
   trocar() {
     if (this.imagem === '/assets/img1.jpg') {
       this.imagem = '/assets/img2.jpg';
+      this.claI1 ='image2';
     } else if (this.imagem === '/assets/img2.jpg') {
       this.imagem = '/assets/img3.jpg';
+      this.claI1 ='image3';
     } else if (this.imagem === '/assets/img3.jpg') {
       this.imagem = '/assets/img1.jpg';
+      this.claI1 ='image1';
     }
-
   }
 }

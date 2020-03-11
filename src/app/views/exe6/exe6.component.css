@@ -1,5 +1,19 @@
-image1{
-  width: 20px;
-  height: 20px;
-  border: darkorchid;
+.image1{
+  width: 60px;
+  height: 60px;
+  border: groove 5px darkorchid;
   }
+.image2{
+  width: 60px;
+  height: 60px;
+  border: groove 5px chocolate;
+  }
+.image3{
+  width: 60px;
+  height: 60px;
+  border: groove 5px crimson;
+  }
+.p{
+  font-size: medium;
+  font-weight: bold;
+}

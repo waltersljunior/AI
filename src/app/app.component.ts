@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  fundo = 'light';
+  botao = 'BoDark';
+  mudarCor() {
+    if (this.fundo === 'light') {
+      this.fundo = 'dark';
+      this.botao = 'BoLight';
+    } else if (this.fundo === 'dark') {
+      this.fundo = 'light';
+      this.botao = 'BoDark';
+    }
+  }
 }
